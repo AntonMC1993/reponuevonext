@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+.contenedorcarrusel {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.rectangulo2 {
+  display: flex;
+  width: 1800px;
+  height: 80px;
+  background: rgb(0, 0, 0);
+  border: 2px solid #e37c14;
+  margin: -50px;
+  border-style: groove;
+  text-align: center;
+  font-family: "Bangers";
+  color: #fffefc;
+  font-size: xx-large;
+  font-weight: 400;
+  line-height: 70px;
+  justify-content: center;
+}
+
+.rectangulo3 {
+  position: relative;
+  width: 1800px;
+  height: 80px;
+  background: rgb(0, 0, 0);
+  border: 2px solid #e37c14;
+  margin: -50px;
+  border-style: groove;
+  text-align: center;
+  font-family: "Bangers";
+  color: #fffefc;
+  font-size: xx-large;
+  font-weight: 400;
+  line-height: 70px;
+  font-style: normal;
+  justify-content: center;
+}
+
+/* ObjetivoSocioambientales */
+.rectangulo4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1365px;
+  height: 80px;
+  background: rgb(0, 0, 0);
+  border: 2px solid #e37c14;
+  margin: -50px;
+  border-style: groove;
+  text-align: center;
+  font-family: "Bangers";
+  color: #fff6f6;
+  font-size: xx-large;
+  font-weight: 400;
+  line-height: 70px;
+  font-style: normal;
+  justify-content: center;
+}
+
+/* ICONOS OBJETIVOS SOCIOAMBIENTALES */
+.imagecontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imagecontainerimg {
+  margin: 80px; /* Opcional: agrega un margen entre las imágenes */
+  vertical-align: top;
+  display: flex;
+  gap: 230px;
+}
+
+.botonesobjetivos {
+  display: flex;
+  gap: 120px;
+  font-size: 60px;
+  margin-top: -70px;
+  text-align: center;
+}
+
+.botonesobjetivos li {
+  list-style: none;
+}
+
+.botonesobjetivos a {
+  text-decoration: none;
+  color: #333; /* Puedes cambiar el color del texto según tus preferencias */
+  border-bottom: 2px solid transparent; /* Agrega un borde inferior transparente */
+}
+
+.botonesobjetivos a:hover {
+  border-color: #fbb336; /* Cambia el color del borde inferior en el hover */
+}
